@@ -12,12 +12,12 @@
 		F61873A61C29FB8A00080865 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F61873A41C29FB8A00080865 /* Main.storyboard */; };
 		F61873A81C29FB8A00080865 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F61873A71C29FB8A00080865 /* Assets.xcassets */; };
 		F61873AB1C29FB8A00080865 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F61873A91C29FB8A00080865 /* LaunchScreen.storyboard */; };
-		F61873B31C29FDD300080865 /* Dr. Rude - Kalavela Shot Me Down.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F61873B21C29FDD300080865 /* Dr. Rude - Kalavela Shot Me Down.mp3 */; };
-		F61873B51C29FDDC00080865 /* 27 Drunken Masta.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F61873B41C29FDDC00080865 /* 27 Drunken Masta.mp3 */; };
-		F61873B71C29FDE800080865 /* Electronic Vibes - True Frontliner (A Dedication to Frontliner).mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F61873B61C29FDE800080865 /* Electronic Vibes - True Frontliner (A Dedication to Frontliner).mp3 */; };
-		F61873BB1C2A43B300080865 /* gunz.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F61873B81C2A43B300080865 /* gunz.jpg */; };
-		F61873BC1C2A43B300080865 /* summer.png in Resources */ = {isa = PBXBuildFile; fileRef = F61873B91C2A43B300080865 /* summer.png */; };
-		F61873BD1C2A43B300080865 /* psyko.png in Resources */ = {isa = PBXBuildFile; fileRef = F61873BA1C2A43B300080865 /* psyko.png */; };
+		F661C40E1C308F6800C39927 /* Drunken Masta.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F661C40B1C308F6800C39927 /* Drunken Masta.mp3 */; };
+		F661C40F1C308F6800C39927 /* Kalavela Shot Me Down.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F661C40C1C308F6800C39927 /* Kalavela Shot Me Down.mp3 */; };
+		F661C4101C308F6800C39927 /* True Frontliner.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F661C40D1C308F6800C39927 /* True Frontliner.mp3 */; };
+		F661C4141C30921000C39927 /* Unknown-1.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = F661C4111C30921000C39927 /* Unknown-1.jpeg */; };
+		F661C4151C30921000C39927 /* Unknown-2.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = F661C4121C30921000C39927 /* Unknown-2.jpeg */; };
+		F661C4161C30921000C39927 /* Unknown.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = F661C4131C30921000C39927 /* Unknown.jpeg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,12 +28,12 @@
 		F61873A71C29FB8A00080865 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F61873AA1C29FB8A00080865 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F61873AC1C29FB8A00080865 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F61873B21C29FDD300080865 /* Dr. Rude - Kalavela Shot Me Down.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Dr. Rude - Kalavela Shot Me Down.mp3"; sourceTree = "<group>"; };
-		F61873B41C29FDDC00080865 /* 27 Drunken Masta.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "27 Drunken Masta.mp3"; sourceTree = "<group>"; };
-		F61873B61C29FDE800080865 /* Electronic Vibes - True Frontliner (A Dedication to Frontliner).mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Electronic Vibes - True Frontliner (A Dedication to Frontliner).mp3"; sourceTree = "<group>"; };
-		F61873B81C2A43B300080865 /* gunz.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = gunz.jpg; sourceTree = "<group>"; };
-		F61873B91C2A43B300080865 /* summer.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = summer.png; sourceTree = "<group>"; };
-		F61873BA1C2A43B300080865 /* psyko.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = psyko.png; sourceTree = "<group>"; };
+		F661C40B1C308F6800C39927 /* Drunken Masta.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Drunken Masta.mp3"; sourceTree = "<group>"; };
+		F661C40C1C308F6800C39927 /* Kalavela Shot Me Down.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Kalavela Shot Me Down.mp3"; sourceTree = "<group>"; };
+		F661C40D1C308F6800C39927 /* True Frontliner.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "True Frontliner.mp3"; sourceTree = "<group>"; };
+		F661C4111C30921000C39927 /* Unknown-1.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Unknown-1.jpeg"; sourceTree = "<group>"; };
+		F661C4121C30921000C39927 /* Unknown-2.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Unknown-2.jpeg"; sourceTree = "<group>"; };
+		F661C4131C30921000C39927 /* Unknown.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Unknown.jpeg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,12 +70,12 @@
 				F61873A21C29FB8A00080865 /* ViewController.swift */,
 				F61873A41C29FB8A00080865 /* Main.storyboard */,
 				F61873A71C29FB8A00080865 /* Assets.xcassets */,
-				F61873B21C29FDD300080865 /* Dr. Rude - Kalavela Shot Me Down.mp3 */,
-				F61873B81C2A43B300080865 /* gunz.jpg */,
-				F61873B91C2A43B300080865 /* summer.png */,
-				F61873BA1C2A43B300080865 /* psyko.png */,
-				F61873B41C29FDDC00080865 /* 27 Drunken Masta.mp3 */,
-				F61873B61C29FDE800080865 /* Electronic Vibes - True Frontliner (A Dedication to Frontliner).mp3 */,
+				F661C40B1C308F6800C39927 /* Drunken Masta.mp3 */,
+				F661C40C1C308F6800C39927 /* Kalavela Shot Me Down.mp3 */,
+				F661C4111C30921000C39927 /* Unknown-1.jpeg */,
+				F661C4121C30921000C39927 /* Unknown-2.jpeg */,
+				F661C4131C30921000C39927 /* Unknown.jpeg */,
+				F661C40D1C308F6800C39927 /* True Frontliner.mp3 */,
 				F61873A91C29FB8A00080865 /* LaunchScreen.storyboard */,
 				F61873AC1C29FB8A00080865 /* Info.plist */,
 			);
@@ -141,15 +141,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F61873B31C29FDD300080865 /* Dr. Rude - Kalavela Shot Me Down.mp3 in Resources */,
-				F61873BC1C2A43B300080865 /* summer.png in Resources */,
-				F61873B51C29FDDC00080865 /* 27 Drunken Masta.mp3 in Resources */,
-				F61873B71C29FDE800080865 /* Electronic Vibes - True Frontliner (A Dedication to Frontliner).mp3 in Resources */,
+				F661C40F1C308F6800C39927 /* Kalavela Shot Me Down.mp3 in Resources */,
 				F61873AB1C29FB8A00080865 /* LaunchScreen.storyboard in Resources */,
+				F661C4151C30921000C39927 /* Unknown-2.jpeg in Resources */,
 				F61873A81C29FB8A00080865 /* Assets.xcassets in Resources */,
 				F61873A61C29FB8A00080865 /* Main.storyboard in Resources */,
-				F61873BD1C2A43B300080865 /* psyko.png in Resources */,
-				F61873BB1C2A43B300080865 /* gunz.jpg in Resources */,
+				F661C4101C308F6800C39927 /* True Frontliner.mp3 in Resources */,
+				F661C4161C30921000C39927 /* Unknown.jpeg in Resources */,
+				F661C40E1C308F6800C39927 /* Drunken Masta.mp3 in Resources */,
+				F661C4141C30921000C39927 /* Unknown-1.jpeg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

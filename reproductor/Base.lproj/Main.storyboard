@@ -59,6 +59,7 @@
                     </view>
                     <connections>
                         <outlet property="image" destination="AT7-Rh-Qt9" id="03c-EC-Asw"/>
+                        <outlet property="imageView" destination="AT7-Rh-Qt9" id="vMc-5F-5E7"/>
                         <outlet property="nombreCancion" destination="Kl8-gT-bd6" id="u1P-Xh-PUQ"/>
                         <outlet property="pickerCanciones" destination="jxQ-P3-glt" id="jeN-YI-CXx"/>
                     </connections>
