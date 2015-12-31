@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F6049C451C34D6F800BEBDDF /* wmf.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F6049C431C34D6F800BEBDDF /* wmf.jpg */; };
+		F6049C461C34D6F800BEBDDF /* summer.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F6049C441C34D6F800BEBDDF /* summer.jpg */; };
+		F6049C4D1C34DB1800BEBDDF /* Wild Wild West.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F6049C4B1C34DB1800BEBDDF /* Wild Wild West.mp3 */; };
+		F6049C4E1C34DB1800BEBDDF /* Tell Me.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F6049C4C1C34DB1800BEBDDF /* Tell Me.mp3 */; };
 		F61873A11C29FB8A00080865 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F61873A01C29FB8A00080865 /* AppDelegate.swift */; };
 		F61873A31C29FB8A00080865 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F61873A21C29FB8A00080865 /* ViewController.swift */; };
 		F61873A61C29FB8A00080865 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F61873A41C29FB8A00080865 /* Main.storyboard */; };
@@ -15,12 +19,16 @@
 		F661C40E1C308F6800C39927 /* Drunken Masta.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F661C40B1C308F6800C39927 /* Drunken Masta.mp3 */; };
 		F661C40F1C308F6800C39927 /* Kalavela Shot Me Down.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F661C40C1C308F6800C39927 /* Kalavela Shot Me Down.mp3 */; };
 		F661C4101C308F6800C39927 /* True Frontliner.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F661C40D1C308F6800C39927 /* True Frontliner.mp3 */; };
-		F661C4141C30921000C39927 /* Unknown-1.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = F661C4111C30921000C39927 /* Unknown-1.jpeg */; };
-		F661C4151C30921000C39927 /* Unknown-2.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = F661C4121C30921000C39927 /* Unknown-2.jpeg */; };
-		F661C4161C30921000C39927 /* Unknown.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = F661C4131C30921000C39927 /* Unknown.jpeg */; };
+		F661C4141C30921000C39927 /* drunken.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = F661C4111C30921000C39927 /* drunken.jpeg */; };
+		F661C4151C30921000C39927 /* drrude.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = F661C4121C30921000C39927 /* drrude.jpeg */; };
+		F661C4161C30921000C39927 /* frontliner.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = F661C4131C30921000C39927 /* frontliner.jpeg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F6049C431C34D6F800BEBDDF /* wmf.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = wmf.jpg; sourceTree = "<group>"; };
+		F6049C441C34D6F800BEBDDF /* summer.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = summer.jpg; sourceTree = "<group>"; };
+		F6049C4B1C34DB1800BEBDDF /* Wild Wild West.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Wild Wild West.mp3"; sourceTree = "<group>"; };
+		F6049C4C1C34DB1800BEBDDF /* Tell Me.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Tell Me.mp3"; sourceTree = "<group>"; };
 		F618739D1C29FB8A00080865 /* reproductor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = reproductor.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F61873A01C29FB8A00080865 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F61873A21C29FB8A00080865 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -31,9 +39,9 @@
 		F661C40B1C308F6800C39927 /* Drunken Masta.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Drunken Masta.mp3"; sourceTree = "<group>"; };
 		F661C40C1C308F6800C39927 /* Kalavela Shot Me Down.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Kalavela Shot Me Down.mp3"; sourceTree = "<group>"; };
 		F661C40D1C308F6800C39927 /* True Frontliner.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "True Frontliner.mp3"; sourceTree = "<group>"; };
-		F661C4111C30921000C39927 /* Unknown-1.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Unknown-1.jpeg"; sourceTree = "<group>"; };
-		F661C4121C30921000C39927 /* Unknown-2.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Unknown-2.jpeg"; sourceTree = "<group>"; };
-		F661C4131C30921000C39927 /* Unknown.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Unknown.jpeg; sourceTree = "<group>"; };
+		F661C4111C30921000C39927 /* drunken.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = drunken.jpeg; sourceTree = "<group>"; };
+		F661C4121C30921000C39927 /* drrude.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = drrude.jpeg; sourceTree = "<group>"; };
+		F661C4131C30921000C39927 /* frontliner.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = frontliner.jpeg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,9 +80,13 @@
 				F61873A71C29FB8A00080865 /* Assets.xcassets */,
 				F661C40B1C308F6800C39927 /* Drunken Masta.mp3 */,
 				F661C40C1C308F6800C39927 /* Kalavela Shot Me Down.mp3 */,
-				F661C4111C30921000C39927 /* Unknown-1.jpeg */,
-				F661C4121C30921000C39927 /* Unknown-2.jpeg */,
-				F661C4131C30921000C39927 /* Unknown.jpeg */,
+				F6049C4B1C34DB1800BEBDDF /* Wild Wild West.mp3 */,
+				F6049C4C1C34DB1800BEBDDF /* Tell Me.mp3 */,
+				F661C4111C30921000C39927 /* drunken.jpeg */,
+				F661C4121C30921000C39927 /* drrude.jpeg */,
+				F6049C431C34D6F800BEBDDF /* wmf.jpg */,
+				F6049C441C34D6F800BEBDDF /* summer.jpg */,
+				F661C4131C30921000C39927 /* frontliner.jpeg */,
 				F661C40D1C308F6800C39927 /* True Frontliner.mp3 */,
 				F61873A91C29FB8A00080865 /* LaunchScreen.storyboard */,
 				F61873AC1C29FB8A00080865 /* Info.plist */,
@@ -142,14 +154,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				F661C40F1C308F6800C39927 /* Kalavela Shot Me Down.mp3 in Resources */,
+				F6049C461C34D6F800BEBDDF /* summer.jpg in Resources */,
 				F61873AB1C29FB8A00080865 /* LaunchScreen.storyboard in Resources */,
-				F661C4151C30921000C39927 /* Unknown-2.jpeg in Resources */,
+				F661C4151C30921000C39927 /* drrude.jpeg in Resources */,
 				F61873A81C29FB8A00080865 /* Assets.xcassets in Resources */,
 				F61873A61C29FB8A00080865 /* Main.storyboard in Resources */,
 				F661C4101C308F6800C39927 /* True Frontliner.mp3 in Resources */,
-				F661C4161C30921000C39927 /* Unknown.jpeg in Resources */,
+				F6049C4D1C34DB1800BEBDDF /* Wild Wild West.mp3 in Resources */,
+				F661C4161C30921000C39927 /* frontliner.jpeg in Resources */,
+				F6049C451C34D6F800BEBDDF /* wmf.jpg in Resources */,
 				F661C40E1C308F6800C39927 /* Drunken Masta.mp3 in Resources */,
-				F661C4141C30921000C39927 /* Unknown-1.jpeg in Resources */,
+				F6049C4E1C34DB1800BEBDDF /* Tell Me.mp3 in Resources */,
+				F661C4141C30921000C39927 /* drunken.jpeg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -15,12 +15,21 @@ class ViewController: UIViewController, UIPickerViewDataSource, UIPickerViewDele
     @IBOutlet weak var image: UIImageView!
     @IBOutlet weak var pickerCanciones: UIPickerView!
     @IBOutlet weak var nombreCancion: UILabel!
+    @IBAction func aleatorio(sender: AnyObject) {
+    }
+    
+    @IBOutlet weak var playButton: UIButton!
+    @IBOutlet weak var stopButton: UIButton!
+    @IBOutlet weak var pauseButton: UIButton!
+    @IBOutlet weak var myVolume: UISlider!
+    
+    
     private var reproductor: AVAudioPlayer! //esta variable contiene el reproductor
     
     @IBOutlet weak var imageView: UIImageView!
     
    
-    var canciones = ["Kalavela Shot Me Down", "Drunken Masta","True Frontliner"]
+    var canciones = ["Kalavela Shot Me Down", "Drunken Masta","True Frontliner","Wild Wild West","Tell Me"]
     //un arreglo con las canciones
     
 
@@ -28,7 +37,17 @@ class ViewController: UIViewController, UIPickerViewDataSource, UIPickerViewDele
         super.viewDidLoad()
        // Do any additional setup after loading the view, typically from a nib.
         
+        
+        self.playButton.enabled = false
+        self.stopButton.enabled = false
+        self.pauseButton.enabled = false
+        
+        
         }
+    @IBAction func volume(sender: AnyObject) {
+        reproductor.volume = myVolume.value
+    }
+    
     func numberOfComponentsInPickerView(pickerView: UIPickerView) -> Int {
         return 1 //Este numero determina cuantas columnas habra en el PickerView
         
@@ -51,23 +70,23 @@ class ViewController: UIViewController, UIPickerViewDataSource, UIPickerViewDele
         let kalavelaUrl = NSBundle.mainBundle().URLForResource("Kalavela Shot Me Down", withExtension: "mp3")
         let drunkenUrl = NSBundle.mainBundle().URLForResource("Drunken Masta", withExtension: "mp3")
         let frontlinerUrl = NSBundle.mainBundle().URLForResource("True Frontliner", withExtension: "mp3")
+        let wild = NSBundle.mainBundle().URLForResource("Wild Wild West", withExtension: "mp3")
+        let tell = NSBundle.mainBundle().URLForResource("Tell Me", withExtension: "mp3")
         
-        //let frontCoverUrl = NSBundle.mainBundle().URLForResource("Unknown", withExtension: "jpeg")
-        //let drunkenCoverUrl = NSBundle.mainBundle().URLForResource("Unknown-1", withExtension: "jpeg")
-        //let kalavelaCoverUrl = NSBundle.mainBundle().URLForResource("Unknown-2", withExtension: "jpeg")
-        
-        //se crea una URL para cada cancion, tambien trate de agregar la imagen mas no pude
-        
-        
-            if (row == 0){
+        if (row == 0){
                 nombreCancion.text = canciones[0]
                 do{
                 try reproductor = AVAudioPlayer(contentsOfURL: kalavelaUrl!)
                 }
                 catch{
                     print("error")
-                }
+                    }
                 reproductor.play()
+                self.playButton.enabled = true
+                self.stopButton.enabled = true
+                self.pauseButton.enabled = true
+                self.imageView.image = UIImage(named: "drrude.jpeg")
+                
                 //aqui se determina que si row es igual a 0 que seria la primera cancion, el texto sera igual a el componente 0 del arreglo. Y utilizara do para reproducir
                 
                 
@@ -79,6 +98,10 @@ class ViewController: UIViewController, UIPickerViewDataSource, UIPickerViewDele
                     print("error")
                 }
                 reproductor.play()
+                self.playButton.enabled = true
+                self.stopButton.enabled = true
+                self.pauseButton.enabled = true
+                self.imageView.image = UIImage(named: "drunken.jpeg")
                 
                 
             }else if (row == 2){
@@ -89,7 +112,41 @@ class ViewController: UIViewController, UIPickerViewDataSource, UIPickerViewDele
                 print("error")
                 }
                 reproductor.play()
-        }}
+                self.playButton.enabled = true
+                self.stopButton.enabled = true
+                self.pauseButton.enabled = true
+                self.imageView.image = UIImage(named: "frontliner.jpeg")
+                
+                
+            }else if (row == 3){
+                nombreCancion.text = canciones[3]
+                do{
+                    try reproductor = AVAudioPlayer(contentsOfURL: wild!)
+                }catch{
+                    print("error")
+                }
+                reproductor.play()
+                self.playButton.enabled = true
+                self.stopButton.enabled = true
+                self.pauseButton.enabled = true
+                self.imageView.image = UIImage(named: "wmf.jpg")
+                
+                
+            }else if (row == 4){
+                nombreCancion.text = canciones[4]
+                do{
+                    try reproductor = AVAudioPlayer(contentsOfURL: tell!)
+                }catch{
+                    print("error")
+                }
+                reproductor.play()
+                self.playButton.enabled = true
+                self.stopButton.enabled = true
+                self.pauseButton.enabled = true
+                self.imageView.image = UIImage(named: "summer.jpg")
+                }
+   
+        }
     
     
         
@@ -98,6 +155,10 @@ class ViewController: UIViewController, UIPickerViewDataSource, UIPickerViewDele
     @IBAction func stop() {
         if reproductor.playing{
             reproductor.stop()
+            reproductor.currentTime = 0.0
+            self.playButton.enabled = true
+            self.stopButton.enabled = false
+            self.pauseButton.enabled = false
         }
         
     }
@@ -105,12 +166,26 @@ class ViewController: UIViewController, UIPickerViewDataSource, UIPickerViewDele
     @IBAction func play() {
         if !reproductor.playing{
             reproductor.play()
+            self.playButton.enabled = false
+            self.stopButton.enabled = true
+            self.pauseButton.enabled = true
         }}
 
     @IBAction func pause() {
         if reproductor.playing{
             reproductor.pause()
+            self.playButton.enabled = true
+            self.stopButton.enabled = true
+            self.pauseButton.enabled = false
         }
     }
 
-}
+    @IBAction func shufleButton(sender: AnyObject) {
+        let numero = random()
+        let index : Int = numero % 5
+        self.pickerCanciones.selectRow(index, inComponent: 0, animated: true)
+        self.pickerView(self.pickerCanciones, didSelectRow: 0, inComponent: 0)
+        }}
+        
+        
+

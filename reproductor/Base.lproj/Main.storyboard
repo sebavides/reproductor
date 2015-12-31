@@ -41,27 +41,46 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cgI-L5-StH">
-                                <rect key="frame" x="47" y="290" width="32" height="30"/>
+                                <rect key="frame" x="40" y="299" width="32" height="30"/>
                                 <state key="normal" title="Stop"/>
                                 <connections>
                                     <action selector="stop" destination="BYZ-38-t0r" eventType="touchUpInside" id="GTX-xf-qHk"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="prG-jo-TOP">
+                                <rect key="frame" x="130" y="337" width="61" height="30"/>
+                                <state key="normal" title="Aleatoria"/>
+                                <connections>
+                                    <action selector="aleatorio:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Blg-4r-SPC"/>
+                                    <action selector="shufleButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="WuL-FB-pnL"/>
+                                </connections>
+                            </button>
+                            <slider opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="pRd-Qn-NWa">
+                                <rect key="frame" x="101" y="299" width="118" height="31"/>
+                                <connections>
+                                    <action selector="volume:" destination="BYZ-38-t0r" eventType="valueChanged" id="PUZ-fX-Bxe"/>
+                                </connections>
+                            </slider>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wbN-ch-5ON">
-                                <rect key="frame" x="238" y="290" width="42" height="30"/>
+                                <rect key="frame" x="238" y="299" width="42" height="30"/>
                                 <state key="normal" title="Pause"/>
                                 <connections>
                                     <action selector="pause" destination="BYZ-38-t0r" eventType="touchUpInside" id="da0-2o-VxF"/>
                                 </connections>
                             </button>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="tintColor" red="0.023313747718930244" green="0.011664831079542637" blue="0.033269543200731277" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
                     <connections>
                         <outlet property="image" destination="AT7-Rh-Qt9" id="03c-EC-Asw"/>
                         <outlet property="imageView" destination="AT7-Rh-Qt9" id="vMc-5F-5E7"/>
+                        <outlet property="myVolume" destination="pRd-Qn-NWa" id="BFM-7x-PDb"/>
                         <outlet property="nombreCancion" destination="Kl8-gT-bd6" id="u1P-Xh-PUQ"/>
+                        <outlet property="pauseButton" destination="wbN-ch-5ON" id="hgV-PP-tL9"/>
                         <outlet property="pickerCanciones" destination="jxQ-P3-glt" id="jeN-YI-CXx"/>
+                        <outlet property="playButton" destination="XIa-BY-pJL" id="kW5-Op-wZF"/>
+                        <outlet property="stopButton" destination="cgI-L5-StH" id="qrc-02-5pM"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
